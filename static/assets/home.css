@@ -1,0 +1,31 @@
+header .navbar-tabs {
+  justify-content: center;
+}
+
+.highlight {
+  margin-bottom: 0 !important;
+}
+.highlight .highlight-item {
+    height: 416px;
+    background: url(/assets/images/home/banner/highlight.jpg) no-repeat center/cover;
+                color: rgb();
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+}
+
+.highlight .highlight-item h1 {
+    font-size: 50px;
+}
+.thumbnail {
+  border-top:.1rem solid white;
+  border-left:.1rem solid white;
+}
+.thumbnail .thumbnail-item {
+  border-top:.1rem solid white;
+  border-left:.1rem solid white;
+  border-right:.1rem solid white;
+}
+.thumbnail .thumbnail-item : last-child {
+  border: none;
+}
